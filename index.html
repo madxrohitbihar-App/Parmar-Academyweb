@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>madxrohitbihar-app | Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <div class="splash-avatar">
+            <img src="https://i.postimg.cc/521hHyTw/image-search-1793340746039.jpg" alt="Logo">
+        </div>
+        <div class="splash-title"> ModEduZone </div>
+    </div>
+
+    <!-- Device Verification Screen -->
+    <div id="authScreen" style="display: flex;">
+        <div class="card">
+            <h2>Device Verification</h2>
+            <p style="color:var(--text-secondary); font-size: 13px; margin-bottom: 20px;">Please enter your access key obtained from Get Key to unlock the portal (24 Hours Validity).</p>
+            
+            <input type="text" id="accessKeyInput" class="key-input" placeholder="ENTER KEY">
+            
+            <button class="btn btn-get" onclick="openAroLinks()">
+                <i class="fa-solid fa-key"></i> Get Key
+            </button>
+            <button class="btn btn-verify" onclick="verifyUserKey()">
+                <i class="fa-solid fa-unlock"></i> Verify & Open Portal
+            </button>
+
+            <!-- Red Watch Tutorial Button -->
+            <a href="https://youtube.com/shorts/pUzO0qK8Pf8?si=KzeprXvBJvhJ-43M" target="_blank" class="btn btn-tutorial">
+                <i class="fa-brands fa-youtube"></i> Watch Tutorial on YouTube
+            </a>
+
+            <div id="status-msg"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
