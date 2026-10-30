@@ -7,7 +7,7 @@
 })();
 
 function generateSecretKey() {
-    const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    const chars = '828c34db80ec53e94e7174f5f52e0b274a38ab2d';
     let middlePart = '';
     for (let i = 0; i < 20; i++) {
         middlePart += chars.charAt(Math.floor(Math.random() * chars.length));
