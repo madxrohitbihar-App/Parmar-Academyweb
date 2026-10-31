@@ -16,7 +16,7 @@ function generateSecretKey() {
 }
 
 function openAroLinks() {
-    const apiToken = "0aa19e644db340e405f3b7654cdc70f70d705966";
+    const apiToken = "828c34db80ec53e94e7174f5f52e0b274a38ab2d";
     const freshKey = generateSecretKey();
     localStorage.setItem("expected_app_key", freshKey);
 
